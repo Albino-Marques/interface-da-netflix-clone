@@ -1,0 +1,28 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .serie-principal{
+        margin-top: 80px;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 100;
+        height: 50;
+    }
+
+    .carrossel-series{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width:100px) {
+    .descricao{
+        width: 75%;
+    }
+
+}

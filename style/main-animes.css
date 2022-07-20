@@ -1,0 +1,133 @@
+:root{
+    --vermelho:#d10c15;
+    --preta:#141414;
+
+}
+
+a  { 
+    color: inherit;
+   }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Base*/
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+header .container{
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: "Arial Black" Times;
+    font-style: italic;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(199, 195, 195);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*anime pricipal*/
+
+.anime-principal .container{
+    margin-left: 20px;
+    width: 70%;
+}
+
+.anime-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%) ,url("../img/animes/animeprincipal.jpeg");
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.anime-principal .descricao{
+    margin: 10px 25px 60px 20px;
+}
+
+.anime-principal2 .container{
+    margin-left: 20px;
+    width: 70%;
+}
+
+.anime-principal2{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%) ,url("../img/animes/animeprincipal2.jpeg");
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.anime-principal2 .descricao{
+    margin: 10px 25px 60px 20px;
+}
+
+
+.titulo{
+    flex:auto;
+    margin: 20px 25px 30px 20px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao{
+    border-radius: 70%;    
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: rgb(179, 179, 179);
+    margin-right: 30px;
+    padding: 15px 30px;
+    font-size: 12px;
+    transition: 1s ease all;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.botao i{
+    margin-right: 3px;
+}
+
+
+/* Carrossel de animes */
+
+.carrossel-animes{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
